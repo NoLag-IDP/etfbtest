@@ -115,7 +115,7 @@ UsernameCorner.CornerRadius = UDim.new(0, 8)
 UsernameCorner.Parent = UsernameSection
 
 local UsernameLabel = Instance.new("TextLabel")
-UsernameLabel.Text = "Target Username:"
+UsernameLabel.Text = "Victims Username:"
 UsernameLabel.Font = Enum.Font.Gotham
 UsernameLabel.TextSize = 12
 UsernameLabel.TextColor3 = Color3.fromRGB(200, 200, 210)
