@@ -275,7 +275,7 @@ end
 FreezeBtn.MouseButton1Click:Connect(function()
 	if targetUsername == "" or not targetPlayer then
 		-- ✅ SHOW NOTIFICATION WHEN NO PLAYER
-		showNotification("ADD A PLAYER NAME", "Don't forget to put the players name first before freezing the trade")
+		showNotification("NO USERNAME DETECTED", "Don't forget to put the players name first before freezing the trade!")
 		return
 	end
 	freezeEnabled = not freezeEnabled
@@ -285,7 +285,7 @@ end)
 AcceptBtn.MouseButton1Click:Connect(function()
 	if targetUsername == "" or not targetPlayer then
 		-- ✅ SHOW NOTIFICATION WHEN NO PLAYER
-		showNotification("ADD A PLAYER NAME", "Don't forget to put the players name first before freezing the trade")
+		showNotification("NO USERNAME DETECTED", "Don't forget to put the players name first before freezing the trade!")
 		return
 	end
 	acceptEnabled = not acceptEnabled
